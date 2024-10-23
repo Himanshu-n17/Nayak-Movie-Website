@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# MOVIE SEARCH APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A simple movie search application built with React. This app allows users to search for movies by name and view detailed information about each movie by clicking on the corresponding movie card. 
 
-## Available Scripts
+### Features 
 
-In the project directory, you can run:
+> - **Search Functionality:** Enter a movie name to find relevant results. 
+> - **Movie Cards:** Display movie titles, posters, and brief descriptions. 
+> - **Movie Details:** Click on a movie card to view more in-depth information, including the plot, release date, and ratings. 
 
-### `npm start`
+### Technologies Used 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> - **React:** For building the user interface. 
+> - **CSS:** For styling the components. 
+> - **[OMDB] API:** Fetch movie data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `npm test`
+> 1. Clone the Repository
+```
+bash
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/Himanshu-n17/Nayak-Movie-Website.git
+```
 
-### `npm run build`
+> 2.Navigate to the Project Directory
+```
+bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd Nayak-Movie-Website
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> 3. Install Dependencies
+```
+bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
+```
 
-### `npm run eject`
+> 4. Start The Application
+```
+bash
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> 1.  Enter Movie You Want to Search in Search Bar.
+> 2.  Click on a Movie card to view its Details.
